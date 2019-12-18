@@ -1,0 +1,118 @@
+body {
+  overflow-y: hidden;
+}
+.white {
+  color: white;
+}   
+.ekran {
+  background-color: black;
+}
+
+.ramka {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display: block;
+  width: 21vmax;
+  height: 16vmax;
+  text-align: center
+}
+
+.kolor1 {
+  color:aqua;
+}
+.kolor2 {
+  color:green;
+}
+.kolor3 {
+  color: purple;
+}
+
+.punkty {
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 3vw;
+  margin: -30vw;
+  display: inline-block;
+}
+
+.gracz {
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  width:18vw;
+  font-size: 2vw;
+  display: inline-block;
+}
+
+.miejsce {
+  text-indent: 9vw;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 5vw;
+  display: inline-block;
+  
+}
+.position1 {
+  position: absolute;
+  text-align: middle ;
+  top: 25vh;
+  margin-left: 40vw;
+}
+
+.position2 {
+  position: absolute;
+  text-align: middle ;
+  top: 32vh;
+  margin-left: 63vw;
+}
+
+.position3 {
+  position: absolute;
+  text-align: middle ;
+  top: 39vh;
+  margin-left: 17vw;
+}
+.position10 {
+  visibility: hidden;
+  text-align: middle ;
+  top: 120vh;
+  margin-left: 40vw;
+}
+.position20 {
+  visibility: hidden;
+  text-align: middle ;
+  top: 120vh;
+  margin-left: 63vw;
+}
+.position30 {
+  visibility: hidden;
+  text-align: middle ;
+  top: 120vh;
+  margin-left: 17vw;
+}
+
+.wynik{
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2vw;
+  position: absolute;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+.tytul{
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 3vw;
+  position: absolute;
+        top: 7%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+.aaa {
+  
+  transition:  transform 4s, ease-out 2s;
+  
+}
